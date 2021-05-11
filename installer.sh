@@ -15,9 +15,9 @@ wget https://golang.org/dl/go1.16.4.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.14.3.linux-amd64.tar.gz
 echo ""
 echo "Setting env varaible..."
-echo "export GOPATH=$HOME/go" >> ~/.bashrc
-echo "export GOROOT=/usr/local/go" >> ~/.bashrc
-echo "PATH=$PATH:$GOROOT/bin/:$GOPATH/bin" >> ~/.bashrc
+echo "export GOPATH=$HOME/go" |sudo tee -a ~/.bashrc
+echo "export GOROOT=/usr/local/go" |sudo tee -a ~/.bashrc
+echo "PATH=$PATH:$GOROOT/bin/:$GOPATH/bin" |sudo tee -a ~/.bashrc
 
 go get -u github.com/tomnomnom/anew
 go get -u github.com/tomnomnom/assetfinder
