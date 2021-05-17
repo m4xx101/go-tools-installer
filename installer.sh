@@ -25,6 +25,7 @@ go get -u github.com/tomnomnom/httprobe
 go get github.com/tomnomnom/waybackurls
 go get -u github.com/tomnomnom/httprobe
 go get -u github.com/tomnomnom/unfurl
+GO111MODULE=on go get -u -v github.com/lc/gau
 GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
 GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
 GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
