@@ -30,6 +30,7 @@ GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx
 GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx
 GO111MODULE=on go get -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
 GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+GO111MODULE=on go get -u -v github.com/lc/subjs
 go get -u github.com/ffuf/ffuf
 go get github.com/003random/getJS
 go get github.com/hakluke/hakrawler
